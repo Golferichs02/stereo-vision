@@ -1,7 +1,21 @@
+"""
+File: object_tracking.py
+Date created: April 27, 2024
+Last updated: May 6, 2024
+Description: El script obtiene las coordenadas X Y Z de 2 imagenes en 2D
+previamente rectificadas, para obtener la profundidad de los objetos.
+
+Creator: Jorge Alberto Rosales de Golferichs
+
+Terminal: stereo_vision.py -l left_infrared_image.png -r right_infrared_image.png -c calibration-parameters.txt -s 100
+"""
+
+
 import argparse
 import cv2
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
+
 
 # Global variables to manage coordinates and selection state
 coords = []
