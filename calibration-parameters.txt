@@ -1,0 +1,7 @@
+  "baseline": "-94.926",
+  "rectified_fx": "648.52",
+  "rectified_fy": "648.52",
+  "rectified_height": "720",
+  "rectified_cx": "635.709",
+  "rectified_cy": "370.88",
+  "rectified_width": "1280",
